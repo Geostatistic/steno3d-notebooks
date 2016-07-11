@@ -1,0 +1,5 @@
+# notebook checkpoints
+.ipynb_checkpoints/
+
+# mac files
+.DS_store
