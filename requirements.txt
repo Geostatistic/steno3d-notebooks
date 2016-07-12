@@ -1,4 +1,5 @@
-steno3d
-properties
-numpy
 matplotlib
+numpy
+properties
+scipy
+steno3d
