@@ -3,6 +3,3 @@
 
 # mac files
 .DS_store
-
-# compiled python
-*.pyc
