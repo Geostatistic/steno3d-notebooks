@@ -13,7 +13,7 @@ Steno3D Notebooks
 
 Welcome to the Jupyter notebook repository for `Steno3D <https://www.steno3d.com>`_
 by `3point Science <https://www.3ptscience.com>`_. These notebooks can be launched with no download or installation
-at `mybinder.org <http://mybinder.org/repo/3ptscience/steno3dpy-notebooks>`_
+at `mybinder.org <http://mybinder.org/repo/3ptscience/steno3dpy-notebooks>`_.
 
 .. image:: https://raw.githubusercontent.com/3ptscience/steno3dpy/master/docs/images/steno3dpy_screenshot.png
     :width: 40%
