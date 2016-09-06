@@ -25,3 +25,7 @@ script:
 
 after_success:
   # - Build mybinder repo
+
+notifications:
+ slack: 3point:n4uGopqXrpbYFbslpV5z0tyO
+ email: false
