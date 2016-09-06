@@ -1,5 +1,5 @@
 matplotlib
 numpy
-properties
 scipy
 steno3d
+steno3d_obj
