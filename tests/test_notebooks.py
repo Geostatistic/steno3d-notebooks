@@ -47,8 +47,8 @@ class TestNotebooks(unittest.TestCase):
                                 nbline = nbline[:-1]
                             if len(nbline) > 1 and nbline[-2:] == '\\n':
                                 nbline = nbline[:-2]
-                            if (len(nbline) > 0 and nbline[0] != '%' or
-                                nbline == 'plt.colorbar(plt.pcolor(X,Y,Z))'):
+                            if (len(nbline) > 0 and nbline[0] != '%' and
+                                nbline != 'plt.colorbar(plt.pcolor(X,Y,Z))'):
                                     testfile.write(nbline + '\n')
                             continue
                         if in_code and nbline == '"source": [':
