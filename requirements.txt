@@ -1,5 +1,4 @@
 matplotlib
 numpy
-scipy
 steno3d
 steno3d_obj
