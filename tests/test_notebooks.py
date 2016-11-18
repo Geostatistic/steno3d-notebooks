@@ -32,13 +32,15 @@ class TestNotebooks(unittest.TestCase):
                             continue
                         if (in_source and not in_comment and
                                 nbline.find('\\"\\"\\"') >= 0):
+                            nbline = nbline[nbline.find('\\"\\"\\"')+3:]
                             in_comment = True
-                            continue
                         if (in_source and in_comment and
                                 nbline.find('\\"\\"\\"') >= 0):
                             in_comment = False
                             continue
-                        if in_source and not in_comment:
+                        if in_comment:
+                            continue
+                        if in_source:
                             if len(nbline) > 0 and nbline[-1] == ',':
                                 nbline = nbline[:-1]
                             if len(nbline) > 0 and nbline[0] == '"':
