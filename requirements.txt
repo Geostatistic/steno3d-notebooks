@@ -1,4 +1,4 @@
 matplotlib
 numpy
-steno3d
+steno3d==0.3.2b0
 steno3d_obj
