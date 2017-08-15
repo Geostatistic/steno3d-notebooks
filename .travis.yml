@@ -19,5 +19,5 @@ script:
   - nosetests
 
 notifications:
- slack: 3point:n4uGopqXrpbYFbslpV5z0tyO
+ slack:
  email: false
